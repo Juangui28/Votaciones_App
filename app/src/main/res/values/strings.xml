@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Votaciones App</string>
+    <string name="tituloApp">Registro para votar</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Cedula">Cedula</string>
+    <string name="FechaNacimiento">Fecha Nacimiento</string>
+    <string name="tituloVotos">Votos</string>
+    <string name="opcionA">Candidato A</string>
+    <string name="opcionB">Candidato B</string>
+    <string name="opcionC">Candidato C</string>
+</resources>

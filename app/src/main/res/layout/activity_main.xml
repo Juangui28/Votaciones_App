@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+<!--    Este LinearLayout es para el titulo-->
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        
+        <TextView
+            android:id="@+id/titulo"
+            android:gravity="center"
+            android:text="@string/tituloApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+    </LinearLayout>
+
+<!--    Este LinearLayout es para el Nombre-->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        
+        <TextView
+            android:gravity="center"
+            android:text="@string/Nombre"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/Nombre"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </LinearLayout>
+<!--    Este LinearLayout es para la cedula-->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/Cedula"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/Cedula"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </LinearLayout>
+<!--    Este LinearLayout es para la fecha-->
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:gravity="center"
+            android:text="@string/FechaNacimiento"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <EditText
+            android:gravity="center"
+            android:id="@+id/FechaNacimiento"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+    </LinearLayout>
+<!--    This LinearLayout is for the buttons-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+
+        <TextView
+            android:id="@+id/tituloVotos"
+            android:gravity="center"
+            android:text="@string/tituloVotos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/opcionA"
+            android:text="@string/opcionA"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_weight="0.1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/opcionB"
+            android:text="@string/opcionB"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+        </Button>
+
+        <Button
+            android:id="@+id/opcionC"
+            android:text="@string/opcionC"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
